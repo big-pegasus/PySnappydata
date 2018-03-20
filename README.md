@@ -74,7 +74,6 @@ With SQLAlchemy supports, we can benefit from [Superset](https://github.com/apac
 A few lines need patch to the file superset/viz.py
 
 ``` python
-
 def get_df(self, query_obj=None):
     """Returns a pandas dataframe based on the query object"""
 ...
